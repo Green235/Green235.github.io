@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pecera Triangular</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/bootstrap-5.3.0-dist/css/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="style/CSS_alternas.css">
+
+    </head>
+    <body class="bg-body-secondary container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="img/Pecera.png" alt="Peces" class="img-fluid rounded-circle" style="width: 50px"/> 
+            </a>
+            <div class="container">
+                <a href="#" class="navbar-brand"> <span class="text-primary">Peceras</span>Code</a>
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarS"
+                        aria-controls="navbarS"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        >
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+                <div class="collapse navbar-collapse" id="navbarS">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Contacto.html" class="nav-link">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="text-center text-white">Calcular litros de acuario triangular</h1>
+        <p class="text-white">
+            La fórmula sería sencilla: (Alto · Ancho · Largo) / 2. 
+
+            Ejemplo: tenemos un acuario de 90 cm de largo, 45 de ancho y 45 de alto. 
+
+            El acuario tendría: (90 · 45 · 45) / 2 = 91125 cm³ = 91,125 litros
+        </p>
+        <div class="container-fluid">
+            <div class="style diseño">
+                <img style="height: 400px; width: 500px; " src="img/tri.jpg">
+                <div class="calculadora">
+                    <br>
+                    <br>
+                    <div style="border: solid black 4px; width: 500px; height: 300px;">
+                        <form class="border-success-subtle centro">
+                            <h1 class="text-danger-emphasis text-center">Pecera Triangular</h1>
+                            <label for="ancho" class="texto">Ancho (en cm):</label>
+                            <input type="number" id="ancho" step="0.01">
+                            <br>
+                            <br>
+                            <label for="alto">Alto (en cm):</label>
+                            <input type="number" id="alto" step="0.01">
+                            <br>
+                            <br>
+                            <label for="largo">Largo (en cm):</label>
+                            <input type="number" id="largo" step="0.01">
+                            <br>
+                            <br>
+                            <button onclick="calculartri()">Calcular litros</button>
+
+                            <p id="resultado"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="JS/Funciones_Calculadora.js"></script>
+        <br>
+        <br>
+        <br>
+
+        <nav class="style">
+            <div class="card">
+                <div class="text-white">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="text-info text-center col-form-label">CONTENIDO DE LA PÁGINA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="elementor">
+                                <td><a href="Pecera_Rectangular.html" class="nav-link">Calcular litro de acuario rectangular</a></td>
+                            </tr> 
+                            <tr class="elementor">
+                                <td><a href="Pecera_Cuadrada.html" class="nav-link">Calcular litro de acuario cuadrado</a></td>
+                            </tr>
+                            <tr class="elementor">
+                                <td><a href="Pecera_Panoramica.html" class="nav-link">Calcular litro de pecera panorámica</a></td>
+                            </tr>
+                            <tr class="elementor">
+                                <td><a href="Pecera_Cilindrica.html" class="nav-link">Calcular litro de acuario cilíndrico</a></td>
+                            </tr>
+                            <tr class="elementor">
+                                <td><a href="Pecera_semicircular.html" class="nav-link">Calcular litro de pecera semicircular</a></td>
+                            </tr>
+                            <tr class="elementor">
+                                <td><a href="Pecera_Esferico.html" class="nav-link">Calcular litro de acuario esférico</a></td>
+                            </tr>
+                            <tr class="elementor">
+                                <td><a href="#" class="nav-link">Calcular litro de acuario triangular</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </nav>
+        <footer class=" container-fluid bg-dark text-white text-center py-2 mt-5">
+            <p class="text-center">Derechos de autor &copy; 2023 Mi Sitio Web
+                por: David Alberto Sánchez Torres
+            </p>
+        </footer>
+    </body>
+</html>
