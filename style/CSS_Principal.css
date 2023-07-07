@@ -1,0 +1,35 @@
+body{
+    background-color: teal;
+}
+p{
+    text-align: justify
+}
+.img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.elementor:hover{
+    color: #0d6efd;
+    background-color: #f63;
+    border-color: #0dcaf0;
+}
+.style{
+    background: linear-gradient(
+        rgba(119, 148, 234,0.7),
+        rgba(93, 25, 117,0.7));
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.9);
+}
+body{
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.aquariumcostadealmeria.com%2Fwp-content%2Fuploads%2F2018%2F03%2Fdestacada-1.jpg&tbnid=g-JcFid16WAQ4M&vet=12ahUKEwjst96G-NT_AhXoNd4AHQUkCLAQMygsegUIARDEAg..i&imgrefurl=https%3A%2F%2Fwww.aquariumcostadealmeria.com%2Fconsejos-no-contaminar-mar%2F&docid=OKn_AkkcvoIxNM&w=900&h=602&q=mar&ved=2ahUKEwjst96G-NT_AhXoNd4AHQUkCLAQMygsegUIARDEAg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

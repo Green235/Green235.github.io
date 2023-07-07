@@ -1,0 +1,50 @@
+.calculadora{
+    margin: 0px 400px 0px 310px;
+}
+.elementor:hover{
+    color: #0d6efd;
+    background-color: #f63;
+    border-color: #0dcaf0;
+}
+body{
+    background-image: url("https://cdn.gencraft.com/prod/user/fd863f55-e7e2-4c51-9a4b-c7559476904c/1474f17c-a983-4175-9979-5451fc26e4aa/images/image0_1024_1024_watermark.jpg?Expires=1687459289&Signature=lUU7LzDFTste8yQ7fQ7d-aSWGIyhE56Q-mI659TrhBWfO14UMf3fG6oU45gYoSAUiD1h1I8KswLZjLR0vx8xE0OHg9-pWlau9ac-urN4Ow2wIMkUE~XYom6RU1y4OaNSpXrp-RT0U17FLFB85awhx99sWCXh4VEVKAm0Erqw-a0CvwJTosF-pQQ1zTzgKR-C1gL7sO0QJIgIzPMIjN9DiqheAl9jj6vIs9nmjHAgrw-NsVIvnPIl~uHUyTsVBNzGZl6gSrtEmwqYFo2pVBoPEghFJVCsLrzNex~Du5vQTO7DFRO3ZeuZTcV6vuU7ocW0WdxeHBiHan4G0EJiHNL0lw__&Key-Pair-Id=K3RDDB1TZ8BHT8");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.style{
+    background: linear-gradient(
+        rgba(119, 148, 234,0.7),
+        rgba(93, 25, 117,0.7));
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.9);
+}
+.diseño{    
+    display: grid;
+    grid-template-columns: 20% 30%;
+    padding: 10px;
+    margin: 80px;
+    text-align: justify;
+    border-radius: 20px;
+    font-size: 1em;
+    font-family: cursive;
+}
+.centro{
+    text-align: center;
+}
+.texto{
+    size: 10px;
+}
+p{
+    text-align: justify;
+}
+p{
+    text-align: justify
+}
